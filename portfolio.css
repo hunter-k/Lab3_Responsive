@@ -18,7 +18,17 @@ div.mednav {
   box-shadow: 10px 10px 5px #57407a;
 	margin-top: 20px;
 	width: 400px;
+	height: 30px;
 
+
+}
+
+span.glyphicon-link {
+    font-size: 4em;
+}
+
+a {
+	text-align: center;
 
 }
 
@@ -41,7 +51,7 @@ div.jumbotron {
 }
 
 body {
-  background: linear-gradient(-90deg, #aaaeb5, #FFFFFF);
+  background: linear-gradient(90deg, #aaaeb5, #FFFFFF);
 }
 
 h1 {
