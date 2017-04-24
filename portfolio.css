@@ -4,7 +4,6 @@ div.navbar {
 	background: rgba(106, 198, 79, 0.88);
   box-shadow: 10px 10px 5px #57407a;
   color: rgb(76, 75, 78);
-	position: fixed;
 }
 
 div.mininav {
@@ -43,8 +42,6 @@ a {
 div.jumbotron {
   background: rgba(106, 198, 79, 0.88);
   box-shadow: 10px 10px 5px #57407a;
-	z-index: -1;
-	position: relative;
 }
 
 #table {
@@ -54,8 +51,7 @@ div.jumbotron {
 }
 
 body {
-	background: black;
-  /*background: linear-gradient(90deg, #aaaeb5, #FFFFFF);*/
+  background: linear-gradient(90deg, #aaaeb5, #FFFFFF);
 }
 
 h1 {
@@ -98,13 +94,4 @@ h1 {
     div.mednav{display:none;}
     div.mininav{display:block;}
 
-}
-
-.headPic {
-	position: fixed;
-	z-index: 10;
-}
-
-.spaner {
-	height: 150px;
 }
